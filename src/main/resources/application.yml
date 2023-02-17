@@ -1,0 +1,16 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          GOOGLE:
+            clientId: "{CLIENT_ID}"
+            clientSecret: "{CLIENT_SECRET}"
+          FACEBOOK:
+            clientId: "{CLIENT_ID}"
+            clientSecret: "{CLIENT_SECRET}"
+          GITHUB:
+            clientId: "{CLIENT_ID}"
+            clientSecret: "{CLIENT_SECRET}"
+  thymeleaf:
+    cache: false
