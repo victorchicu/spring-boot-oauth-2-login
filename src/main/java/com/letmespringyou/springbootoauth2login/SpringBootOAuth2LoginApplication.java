@@ -1,13 +1,13 @@
-package letmespringyou.springbootoauth2;
+package com.letmespringyou.springbootoauth2login;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootOauth2Application {
+public class SpringBootOAuth2LoginApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootOauth2Application.class, args);
+		SpringApplication.run(SpringBootOAuth2LoginApplication.class, args);
 	}
 
 }
